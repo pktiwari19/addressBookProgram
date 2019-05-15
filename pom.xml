@@ -152,6 +152,12 @@
 			<groupId>com.sun.xml.security</groupId>
 			<artifactId>xml-security-impl</artifactId>
 			<version>1.0</version>
+			<exclusions>
+        <exclusion>
+            <artifactId>tools</artifactId>
+            <groupId>com.sun</groupId>
+        </exclusion>
+    </exclusions>
 		</dependency>
 
 
