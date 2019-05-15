@@ -153,14 +153,14 @@
 			<artifactId>xml-security-impl</artifactId>
 			<version>1.0</version>
 			<exclusions>
-        <exclusion>
+        
+		</dependency>
+
+<exclusion>
             <artifactId>tools</artifactId>
             <groupId>com.sun</groupId>
         </exclusion>
     </exclusions>
-		</dependency>
-
-
 		</dependencies>
 
     <build>
